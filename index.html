@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="zh">
+<!--
+       　  　▃▆█▇▄▖
+　 　 　 ▟◤▖　　　◥█▎
+   　 ◢◤　 ▐　　　 　▐▉
+　 ▗◤　　　▂　▗▖　　▕█▎
+　◤　▗▅▖◥▄　▀◣　　█▊
+▐　▕▎◥▖◣◤　　　　◢██
+█◣　◥▅█▀　　　　▐██◤
+▐█▙▂　　     　◢██◤
+◥██◣　　　　◢▄◤
+ 　　▀██▅▇▀
+
+/*别看啦，我一小白写的有什么好看的*/
+/*别看啦，我一小白写的有什么好看的*/
+ -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>张老师新婚快乐</title>
+    <style>
+
+        body {
+            font-family: STXinwei, sans-serif;
+            text-align: center; /* 设置文字居中 */
+            background-color: #F067A6; /* 设置背景色 */
+            padding: 20px; /* 页面内边距 */
+            margin-bottom: 60px; /* 页面底部留白 */
+            overflow: hidden; /* 防止滚动条显示，保持页面整洁 */
+        }/*<!--
+       　  　▃▆█▇▄▖
+　 　 　 ▟◤▖　　　◥█▎
+   　 ◢◤　 ▐　　　 　▐▉
+　 ▗◤　　　▂　▗▖　　▕█▎
+　◤　▗▅▖◥▄　▀◣　　█▊
+▐　▕▎◥▖◣◤　　　　◢██
+█◣　◥▅█▀　　　　▐██◤
+▐█▙▂　　     　◢██◤
+◥██◣　　　　◢▄◤
+ 　　▀██▅▇▀
+
+
+114514 别找了哥们，这次没泄火的渠道了。
+ -->*/
+        /*别看啦，我一小白写的有什么好看的*/
+        /*别看啦，我一小白写的有什么好看的*/
+        /*别看啦，我一小白写的有什么好看的*/
+        /*别看啦，我一小白写的有什么好看的*/
+        /*别看啦，我一小白写的有什么好看的*/
+        /*别看啦，我一小白写的有什么好看的*/
+        <!--
+        　  　▃▆█▇▄▖
+        　 　 　 ▟◤▖　　　◥█▎
+        　 ◢◤　 ▐　　　 　▐▉
+        　 ▗◤　　　▂　▗▖　　▕█▎
+        　◤　▗▅▖◥▄　▀◣　　█▊
+        ▐　▕▎◥▖◣◤　　　　◢██
+        █◣　◥▅█▀　　　　▐██◤
+        ▐█▙▂　　     　◢██◤
+        ◥██◣　　　　◢▄◤
+        　　▀██▅▇▀
+
+
+
+        -->
+        h1 {
+            color: #00BFFF; /* 设置标题颜色 */
+            font-size: 200px
+        }
+        h2 {
+            color: #EE2C2C; /* 设置副标题颜色 */
+            font-size: 20px;
+            z-index: 11;
+        }
+        .btn {
+            background-color: #4CAF50; /* 设置按钮背景色 */
+            color: blue; /* 设置按钮文字颜色 */
+            padding: 7px 15px; /* 设置按钮的内边距 */
+            font-size: 20px; /* 设置字体大小 */
+            font-family: STXinwei, sans-serif;
+            cursor: pointer; /* 设置鼠标悬停时为指针 */
+            border: none; /* 移除按钮的边框 */
+            margin: 3px; /* 设置按钮之间的间距 */
+            border-radius: 8px; /* 设置按钮圆角 */
+            transition:2s; /* 设置过渡动画效果 */
+            position: relative; /* 确保按钮层级高于爱心 */
+            z-index: 3; /* 设置按钮的层级，保证按钮可点击 */
+        }
+        .btn:hover {
+            background-color: #45a049; /* 设置按钮悬停时的背景色 */
+            z-index: 15;
+        }
+        .message {
+            font-size: 25px; /* 设置祝福信息字体大小 */
+            color: #333; /* 设置祝福信息颜色 */
+            margin-top: 20px; /* 设置祝福信息与上面内容的间距 */
+            font-weight: bold; /* 设置祝福信息加粗 */
+            opacity: 0; /* 初始时祝福信息透明度为0 */
+            transform: translateY(20px); /* 初始时祝福信息的位置稍微向下偏移 */
+            transition: opacity 0.5s ease, transform 0.5s ease; /* 设置动画过渡效果 */
+            z-index: 30; /* 使祝福信息位于最上层 */
+        }
+        .message.show {
+            opacity: 1; /* 显示祝福信息时的透明度 */
+            transform: translateY(0); /* 祝福信息恢复到正常位置 */
+            z-index: 25;
+
+        }
+        footer {
+            footer {
+                background-image: url('image/ima.jpg'), url('image/屏幕截图 2025-02-22 223322.png');
+                background-size: contain, contain; /* 背景图片自适应 */
+                background-repeat: no-repeat;
+                background-position: left bottom, right bottom; /* 图片分别在左下角和右下角 */
+            }
+
+            z-index: 1;
+
+            position: fixed; /* 将页脚固定在页面底部 */
+            bottom: 0; /* 设置页脚距页面底部为0 */
+            width: 100%; /* 页脚宽度占满整个页面 */
+            background-color: #F067A6; /* 设置页脚背景色 */
+            color: white; /* 设置页脚文字颜色 */
+            text-align: center; /* 设置页脚文字居中 */
+            padding: 10px 0; /* 设置页脚的上下内边距 */
+            font-size: 20px; /* 设置页脚字体大小 */
+        }
+
+        /* 爱心掉落动画的样式 */
+        .heart {
+            position: fixed;
+            font-size: 50px; /* 设置爱心的大小 */
+            color: #FF4081; /* 设置爱心的颜色 */
+            opacity: 1%; /* 初始时爱心完全透明 */
+            animation: fall 5s linear infinite; /* 设置爱心动画效果，持续时间5秒，线性动画，循环播放 */
+        }
+
+        /* 爱心掉落动画的关键帧 */
+        @keyframes fall {
+            0% {
+                transform: translateY(-400px) rotate(0deg); /* 动画开始时，爱心位于更高的位置，并且没有旋转 */
+                opacity: 1; /* 爱心开始时完全可见 */
+            }
+            100% {
+                transform: translateY(100vh) rotate(360deg); /* 动画结束时，爱心从屏幕顶部掉落至底部，并旋转360度 */
+                opacity: 0; /* 爱心最终变得完全透明 */
+            }
+        }
+
+        .footer-image1 {
+            z-index: 0;
+            width: 30%; /* 设置图片宽度% */
+            max-width: 200px; /* 最大宽度为 */
+            margin-top: 1px; /* 图片顶部留空 */
+            border-radius: 10px; /* 设置图片的圆角效果 */
+            object-fit: contain; /* 确保图片内容适应容器 */
+            position: fixed; /* 固定位置 */
+            left: 10%; /* 图片水平居中 */
+            bottom: 50px;
+        }
+        .footer-image2 {
+            z-index: 0;
+            width: 30%; /* 设置图片宽度*/
+            max-width: 200px; /* 最大宽度为 */
+            margin-top: 1px; /* 图片顶部留空 */
+            border-radius: 10px; /* 设置图片的圆角效果 */
+            object-fit: contain; /* 确保图片内容适应容器 */
+            position: fixed; /* 固定位置 */
+            left: 50%; /* 图片水平居中 */
+            bottom: 50px;
+
+
+
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+<script>
+    // 弹窗提示，欢迎张老师
+    window.alert('张老师，您终于来咯');
+    window.alert('今天');
+    window.alert('我们高一（1）班为您送上最真挚的新婚祝福');
+    window.alert('准备好了吗');
+    window.alert('3');
+    window.alert('2');
+    window.alert('1');
+    function generateFallingHearts() {
+        const heart = 5; // 设定生成5个爱心
+
+        for (let i = 0; i < heart; i++) {
+            const heart = document.createElement('span'); // 创建一个新的span元素
+            heart.classList.add('heart'); // 给元素添加'heart'类，应用爱心样式
+            heart.innerHTML = '❤'; // 设置元素内容为爱心符号
+
+            // 随机设置爱心的横向位置
+            const randomX = Math.random() * window.innerWidth; // 随机值在屏幕宽度范围内
+            heart.style.left = `${randomX}px`; // 设置爱心的left值，使其在页面上随机位置显示
+
+            // 随机设置爱心动画的持续时间
+            const duration = 5 + Math.random() * 5; // 随机选择5到10秒之间的时间
+            heart.style.animationDuration = `${duration}s`; // 设置动画的持续时间
+
+            // 将爱心元素添加到页面
+            document.body.appendChild(heart);
+
+            // 在动画结束后移除该爱心元素，避免页面过度堆积
+            setTimeout(() => {
+                heart.remove(); // 删除当前爱心
+            }, duration * 1000); // 动画持续时间后移除爱心
+        }
+    }
+
+    // 每400毫秒生成一个新的爱心
+    setInterval(generateFallingHearts, 1200); // 每1200ms执行一次生成爱心函数
+</script>
+
+<h1>祝张老师新婚快乐!!!</h1>
+<h2>❤❤❤</h2>
+<p>来听听我们高一（1）班的专属祝福吧！</p>
+<p>点击查看哦(◔⊖◔)つ————————></p>
+
+
+<button class="btn" onclick="generateBlessing('happy')">祝你们幸福</button>
+<button class="btn" onclick="generateBlessing('wealth')">祝你们荣华</button>
+<button class="btn" onclick="generateBlessing('love')">祝你们爱情甜蜜</button>
+<button class="btn" onclick="generateBlessing('forever')">祝你们永结同心</button>
+<script>
+function generateBlessing(type) {
+let blessings = {
+
+happy: "祝丹三姐爱情岁月手牵手，幸福生活天天有！(*´∀`)~♥",
+wealth: "愿你们富贵荣华，财源滚滚来，生活蒸蒸日上！⁄(⁄ ⁄•⁄ω⁄•⁄ ⁄)⁄",
+love: "愿老师和ta的爱情永远甜蜜，像初见时一样美好！( ♥д♥)",
+forever: "愿你们永结同心，携手走过每个春夏秋冬！(　ﾟ ∀ ﾟ)つ≡♡♡♡)`ν゜)"
+};
+
+
+    /*别看啦，我一小白写的有什么好看的*/
+    /*别看啦，我一小白写的有什么好看的*/
+    /*别看啦，我一小白写的有什么好看的*/
+    /*别看啦，我一小白写的有什么好看的*/
+    /*别看啦，我一小白写的有什么好看的*/
+    /*别看啦，我一小白写的有什么好看的*/
+    /*别看啦，我一小白写的有什么好看的*/
+
+let messageElement = document.getElementById('message');
+messageElement.innerText = blessings[type];
+
+// 显示祝福信息，并加动画效果
+messageElement.classList.add('show');
+
+// 4秒后隐藏祝福信息
+setTimeout(() => {
+messageElement.classList.remove('show');
+}, 4000);
+}
+</script>
+
+<div id="message" class="message"></div>
+
+
+<footer>
+    <img src="image/ima.jpg" alt="结婚祝福" class="footer-image1"> <!-- 页脚图片 -->
+    <img src="image/屏幕截图 2025-02-22 223322.png" alt="结婚祝福" class="footer-image2"> <!-- 页脚图片 -->
+    <p>&copy; 2025 薛子宏 版权所有.</p> <!-- 页脚版权信息 -->
+</footer>
+
+</body>
+</html>
