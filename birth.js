@@ -28,3 +28,4 @@ function displayMessage() {
         }, 1000); // 等待1秒（淡出动画时间）后再切换
     }, 1000); // 1秒后开始淡出
 }
+displayMessage();
